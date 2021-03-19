@@ -1,0 +1,10 @@
+|decoder2to4
+EN => Decoder0.IN0
+W1 => Decoder0.IN1
+W0 => Decoder0.IN2
+Y0 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

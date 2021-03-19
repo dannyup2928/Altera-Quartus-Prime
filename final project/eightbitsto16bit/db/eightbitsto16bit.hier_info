@@ -1,0 +1,35 @@
+|eightbitsto16bit
+a[0] => outputArr[8].DATAIN
+a[1] => outputArr[9].DATAIN
+a[2] => outputArr[10].DATAIN
+a[3] => outputArr[11].DATAIN
+a[4] => outputArr[12].DATAIN
+a[5] => outputArr[13].DATAIN
+a[6] => outputArr[14].DATAIN
+a[7] => outputArr[15].DATAIN
+b[0] => outputArr[0].DATAIN
+b[1] => outputArr[1].DATAIN
+b[2] => outputArr[2].DATAIN
+b[3] => outputArr[3].DATAIN
+b[4] => outputArr[4].DATAIN
+b[5] => outputArr[5].DATAIN
+b[6] => outputArr[6].DATAIN
+b[7] => outputArr[7].DATAIN
+outputArr[0] <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[1] <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[2] <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[3] <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[4] <= b[4].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[5] <= b[5].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[6] <= b[6].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[7] <= b[7].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[8] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[9] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[10] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[11] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[12] <= a[4].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[13] <= a[5].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[14] <= a[6].DB_MAX_OUTPUT_PORT_TYPE
+outputArr[15] <= a[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

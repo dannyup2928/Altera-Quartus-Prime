@@ -1,0 +1,16 @@
+|register
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|register|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+

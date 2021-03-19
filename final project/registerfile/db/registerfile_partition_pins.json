@@ -1,0 +1,321 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "P_1",
+					"strict" : false
+				},
+				{
+					"name" : "P0",
+					"strict" : false
+				},
+				{
+					"name" : "RP[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RP[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RP[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RP[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RQ[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RQ[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RQ[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RQ[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RQ[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RQ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RQ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "testcand[7]",
+					"strict" : false
+				},
+				{
+					"name" : "testcand[6]",
+					"strict" : false
+				},
+				{
+					"name" : "testcand[5]",
+					"strict" : false
+				},
+				{
+					"name" : "testcand[4]",
+					"strict" : false
+				},
+				{
+					"name" : "testcand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "testcand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "testcand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "testcand[0]",
+					"strict" : false
+				},
+				{
+					"name" : "testlier[7]",
+					"strict" : false
+				},
+				{
+					"name" : "testlier[6]",
+					"strict" : false
+				},
+				{
+					"name" : "testlier[5]",
+					"strict" : false
+				},
+				{
+					"name" : "testlier[4]",
+					"strict" : false
+				},
+				{
+					"name" : "testlier[3]",
+					"strict" : false
+				},
+				{
+					"name" : "testlier[2]",
+					"strict" : false
+				},
+				{
+					"name" : "testlier[1]",
+					"strict" : false
+				},
+				{
+					"name" : "testlier[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Read_En",
+					"strict" : false
+				},
+				{
+					"name" : "S1P",
+					"strict" : false
+				},
+				{
+					"name" : "S0P",
+					"strict" : false
+				},
+				{
+					"name" : "S1Q",
+					"strict" : false
+				},
+				{
+					"name" : "S0Q",
+					"strict" : false
+				},
+				{
+					"name" : "P-1",
+					"strict" : false
+				},
+				{
+					"name" : "W1",
+					"strict" : false
+				},
+				{
+					"name" : "EN_write",
+					"strict" : false
+				},
+				{
+					"name" : "W0",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpdateMultilier[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplier[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Start",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpadateReceptacle[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplier[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplicand[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpdateMultilier[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplier[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpadateReceptacle[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplicand[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpdateMultilier[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpadateReceptacle[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplier[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplicand[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpdateMultilier[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplier[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpadateReceptacle[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplicand[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpdateMultilier[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpadateReceptacle[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplier[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplicand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpdateMultilier[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplier[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpadateReceptacle[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplicand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpdateMultilier[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpadateReceptacle[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplier[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplicand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpdateMultilier[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUpadateReceptacle[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadUserInputmultiplicand[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

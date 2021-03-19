@@ -1,0 +1,1044 @@
+|registerfile
+P_1 <= register:inst10.Out
+P-1 => register:inst10.In
+EN_write => decoder2to4:inst14.EN
+W1 => decoder2to4:inst14.W1
+W0 => decoder2to4:inst14.W0
+Clk => register:inst10.clock
+Clk => 8bitregister:inst7.Clk
+Clk => 8bitregister:inst.Clk
+Clk => 8bitregister:inst5.Clk
+Clk => 8bitregister:inst6.Clk
+CLRN => register:inst10.CLRN
+CLRN => 8bitregister:inst7.CLRN
+CLRN => 8bitregister:inst.CLRN
+CLRN => 8bitregister:inst5.CLRN
+CLRN => 8bitregister:inst6.CLRN
+P0 <= Output[0].DB_MAX_OUTPUT_PORT_TYPE
+Start => inst16.IN0
+LoadUpdateMultilier[0] => BUSMUX:inst19.dataa[0]
+LoadUpdateMultilier[1] => BUSMUX:inst19.dataa[1]
+LoadUpdateMultilier[2] => BUSMUX:inst19.dataa[2]
+LoadUpdateMultilier[3] => BUSMUX:inst19.dataa[3]
+LoadUpdateMultilier[4] => BUSMUX:inst19.dataa[4]
+LoadUpdateMultilier[5] => BUSMUX:inst19.dataa[5]
+LoadUpdateMultilier[6] => BUSMUX:inst19.dataa[6]
+LoadUpdateMultilier[7] => BUSMUX:inst19.dataa[7]
+LoadUserInputmultiplier[0] => BUSMUX:inst19.datab[0]
+LoadUserInputmultiplier[0] => 8bitregister:inst5.IN[0]
+LoadUserInputmultiplier[1] => BUSMUX:inst19.datab[1]
+LoadUserInputmultiplier[1] => 8bitregister:inst5.IN[1]
+LoadUserInputmultiplier[2] => BUSMUX:inst19.datab[2]
+LoadUserInputmultiplier[2] => 8bitregister:inst5.IN[2]
+LoadUserInputmultiplier[3] => BUSMUX:inst19.datab[3]
+LoadUserInputmultiplier[3] => 8bitregister:inst5.IN[3]
+LoadUserInputmultiplier[4] => BUSMUX:inst19.datab[4]
+LoadUserInputmultiplier[4] => 8bitregister:inst5.IN[4]
+LoadUserInputmultiplier[5] => BUSMUX:inst19.datab[5]
+LoadUserInputmultiplier[5] => 8bitregister:inst5.IN[5]
+LoadUserInputmultiplier[6] => BUSMUX:inst19.datab[6]
+LoadUserInputmultiplier[6] => 8bitregister:inst5.IN[6]
+LoadUserInputmultiplier[7] => BUSMUX:inst19.datab[7]
+LoadUserInputmultiplier[7] => 8bitregister:inst5.IN[7]
+RP[0] <= mux4to1withEN:inst3.F[0]
+RP[1] <= mux4to1withEN:inst3.F[1]
+RP[2] <= mux4to1withEN:inst3.F[2]
+RP[3] <= mux4to1withEN:inst3.F[3]
+RP[4] <= mux4to1withEN:inst3.F[4]
+RP[5] <= mux4to1withEN:inst3.F[5]
+RP[6] <= mux4to1withEN:inst3.F[6]
+RP[7] <= mux4to1withEN:inst3.F[7]
+S1P => mux4to1withEN:inst3.S1
+S0P => mux4to1withEN:inst3.S0
+Read_En => mux4to1withEN:inst3.En
+Read_En => mux4to1withEN:inst4.En
+LoadUserInputmultiplicand[0] => 8bitregister:inst.IN[0]
+LoadUserInputmultiplicand[1] => 8bitregister:inst.IN[1]
+LoadUserInputmultiplicand[2] => 8bitregister:inst.IN[2]
+LoadUserInputmultiplicand[3] => 8bitregister:inst.IN[3]
+LoadUserInputmultiplicand[4] => 8bitregister:inst.IN[4]
+LoadUserInputmultiplicand[5] => 8bitregister:inst.IN[5]
+LoadUserInputmultiplicand[6] => 8bitregister:inst.IN[6]
+LoadUserInputmultiplicand[7] => 8bitregister:inst.IN[7]
+LoadUpadateReceptacle[0] => 8bitregister:inst6.IN[0]
+LoadUpadateReceptacle[1] => 8bitregister:inst6.IN[1]
+LoadUpadateReceptacle[2] => 8bitregister:inst6.IN[2]
+LoadUpadateReceptacle[3] => 8bitregister:inst6.IN[3]
+LoadUpadateReceptacle[4] => 8bitregister:inst6.IN[4]
+LoadUpadateReceptacle[5] => 8bitregister:inst6.IN[5]
+LoadUpadateReceptacle[6] => 8bitregister:inst6.IN[6]
+LoadUpadateReceptacle[7] => 8bitregister:inst6.IN[7]
+RQ[0] <= mux4to1withEN:inst4.F[0]
+RQ[1] <= mux4to1withEN:inst4.F[1]
+RQ[2] <= mux4to1withEN:inst4.F[2]
+RQ[3] <= mux4to1withEN:inst4.F[3]
+RQ[4] <= mux4to1withEN:inst4.F[4]
+RQ[5] <= mux4to1withEN:inst4.F[5]
+RQ[6] <= mux4to1withEN:inst4.F[6]
+RQ[7] <= mux4to1withEN:inst4.F[7]
+S1Q => mux4to1withEN:inst4.S1
+S0Q => mux4to1withEN:inst4.S0
+testcand[0] <= 8bitregister:inst5.OUT[0]
+testcand[1] <= 8bitregister:inst5.OUT[1]
+testcand[2] <= 8bitregister:inst5.OUT[2]
+testcand[3] <= 8bitregister:inst5.OUT[3]
+testcand[4] <= 8bitregister:inst5.OUT[4]
+testcand[5] <= 8bitregister:inst5.OUT[5]
+testcand[6] <= 8bitregister:inst5.OUT[6]
+testcand[7] <= 8bitregister:inst5.OUT[7]
+testlier[0] <= 8bitregister:inst.OUT[0]
+testlier[1] <= 8bitregister:inst.OUT[1]
+testlier[2] <= 8bitregister:inst.OUT[2]
+testlier[3] <= 8bitregister:inst.OUT[3]
+testlier[4] <= 8bitregister:inst.OUT[4]
+testlier[5] <= 8bitregister:inst.OUT[5]
+testlier[6] <= 8bitregister:inst.OUT[6]
+testlier[7] <= 8bitregister:inst.OUT[7]
+
+
+|registerfile|register:inst10
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|register:inst10|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|decoder2to4:inst14
+EN => Decoder0.IN0
+W1 => Decoder0.IN1
+W0 => Decoder0.IN2
+Y0 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|registerfile|8bitregister:inst7
+OUT[0] <= register:inst6.Out
+OUT[1] <= register:inst7.Out
+OUT[2] <= register:inst5.Out
+OUT[3] <= register:inst4.Out
+OUT[4] <= register:inst3.Out
+OUT[5] <= register:inst2.Out
+OUT[6] <= register:inst1.Out
+OUT[7] <= register:inst.Out
+IN[0] => register:inst6.In
+IN[1] => register:inst7.In
+IN[2] => register:inst5.In
+IN[3] => register:inst4.In
+IN[4] => register:inst3.In
+IN[5] => register:inst2.In
+IN[6] => register:inst1.In
+IN[7] => register:inst.In
+Load => register:inst6.Load
+Load => register:inst7.Load
+Load => register:inst5.Load
+Load => register:inst4.Load
+Load => register:inst3.Load
+Load => register:inst2.Load
+Load => register:inst1.Load
+Load => register:inst.Load
+Clk => register:inst6.clock
+Clk => register:inst7.clock
+Clk => register:inst5.clock
+Clk => register:inst4.clock
+Clk => register:inst3.clock
+Clk => register:inst2.clock
+Clk => register:inst1.clock
+Clk => register:inst.clock
+CLRN => register:inst6.CLRN
+CLRN => register:inst7.CLRN
+CLRN => register:inst5.CLRN
+CLRN => register:inst4.CLRN
+CLRN => register:inst3.CLRN
+CLRN => register:inst2.CLRN
+CLRN => register:inst1.CLRN
+CLRN => register:inst.CLRN
+
+
+|registerfile|8bitregister:inst7|register:inst6
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst7|register:inst6|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst7|register:inst7
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst7|register:inst7|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst7|register:inst5
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst7|register:inst5|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst7|register:inst4
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst7|register:inst4|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst7|register:inst3
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst7|register:inst3|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst7|register:inst2
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst7|register:inst2|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst7|register:inst1
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst7|register:inst1|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst7|register:inst
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst7|register:inst|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|BUSMUX:inst19
+dataa[0] => lpm_mux:$00000.data[0][0]
+dataa[1] => lpm_mux:$00000.data[0][1]
+dataa[2] => lpm_mux:$00000.data[0][2]
+dataa[3] => lpm_mux:$00000.data[0][3]
+dataa[4] => lpm_mux:$00000.data[0][4]
+dataa[5] => lpm_mux:$00000.data[0][5]
+dataa[6] => lpm_mux:$00000.data[0][6]
+dataa[7] => lpm_mux:$00000.data[0][7]
+datab[0] => lpm_mux:$00000.data[1][0]
+datab[1] => lpm_mux:$00000.data[1][1]
+datab[2] => lpm_mux:$00000.data[1][2]
+datab[3] => lpm_mux:$00000.data[1][3]
+datab[4] => lpm_mux:$00000.data[1][4]
+datab[5] => lpm_mux:$00000.data[1][5]
+datab[6] => lpm_mux:$00000.data[1][6]
+datab[7] => lpm_mux:$00000.data[1][7]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+result[1] <= lpm_mux:$00000.result[1]
+result[2] <= lpm_mux:$00000.result[2]
+result[3] <= lpm_mux:$00000.result[3]
+result[4] <= lpm_mux:$00000.result[4]
+result[5] <= lpm_mux:$00000.result[5]
+result[6] <= lpm_mux:$00000.result[6]
+result[7] <= lpm_mux:$00000.result[7]
+
+
+|registerfile|BUSMUX:inst19|lpm_mux:$00000
+data[0][0] => mux_erc:auto_generated.data[0]
+data[0][1] => mux_erc:auto_generated.data[1]
+data[0][2] => mux_erc:auto_generated.data[2]
+data[0][3] => mux_erc:auto_generated.data[3]
+data[0][4] => mux_erc:auto_generated.data[4]
+data[0][5] => mux_erc:auto_generated.data[5]
+data[0][6] => mux_erc:auto_generated.data[6]
+data[0][7] => mux_erc:auto_generated.data[7]
+data[1][0] => mux_erc:auto_generated.data[8]
+data[1][1] => mux_erc:auto_generated.data[9]
+data[1][2] => mux_erc:auto_generated.data[10]
+data[1][3] => mux_erc:auto_generated.data[11]
+data[1][4] => mux_erc:auto_generated.data[12]
+data[1][5] => mux_erc:auto_generated.data[13]
+data[1][6] => mux_erc:auto_generated.data[14]
+data[1][7] => mux_erc:auto_generated.data[15]
+sel[0] => mux_erc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_erc:auto_generated.result[0]
+result[1] <= mux_erc:auto_generated.result[1]
+result[2] <= mux_erc:auto_generated.result[2]
+result[3] <= mux_erc:auto_generated.result[3]
+result[4] <= mux_erc:auto_generated.result[4]
+result[5] <= mux_erc:auto_generated.result[5]
+result[6] <= mux_erc:auto_generated.result[6]
+result[7] <= mux_erc:auto_generated.result[7]
+
+
+|registerfile|BUSMUX:inst19|lpm_mux:$00000|mux_erc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[1].IN1
+data[2] => result_node[2].IN1
+data[3] => result_node[3].IN1
+data[4] => result_node[4].IN1
+data[5] => result_node[5].IN1
+data[6] => result_node[6].IN1
+data[7] => result_node[7].IN1
+data[8] => result_node[0].IN1
+data[9] => result_node[1].IN1
+data[10] => result_node[2].IN1
+data[11] => result_node[3].IN1
+data[12] => result_node[4].IN1
+data[13] => result_node[5].IN1
+data[14] => result_node[6].IN1
+data[15] => result_node[7].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result_node[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result_node[2].DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result_node[3].DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= result_node[4].DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= result_node[5].DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= result_node[6].DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= result_node[7].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[7].IN0
+sel[0] => _.IN0
+sel[0] => result_node[6].IN0
+sel[0] => _.IN0
+sel[0] => result_node[5].IN0
+sel[0] => _.IN0
+sel[0] => result_node[4].IN0
+sel[0] => _.IN0
+sel[0] => result_node[3].IN0
+sel[0] => _.IN0
+sel[0] => result_node[2].IN0
+sel[0] => _.IN0
+sel[0] => result_node[1].IN0
+sel[0] => _.IN0
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|registerfile|mux4to1withEN:inst3
+S1 => Mux0.IN4
+S1 => Mux1.IN4
+S1 => Mux2.IN4
+S1 => Mux3.IN4
+S1 => Mux4.IN4
+S1 => Mux5.IN4
+S1 => Mux6.IN4
+S1 => Mux7.IN4
+S0 => Mux0.IN5
+S0 => Mux1.IN5
+S0 => Mux2.IN5
+S0 => Mux3.IN5
+S0 => Mux4.IN5
+S0 => Mux5.IN5
+S0 => Mux6.IN5
+S0 => Mux7.IN5
+En => Mux0.IN6
+En => Mux1.IN6
+En => Mux2.IN6
+En => Mux3.IN6
+En => Mux4.IN6
+En => Mux5.IN6
+En => Mux6.IN6
+En => Mux7.IN6
+W0[0] => Mux7.IN7
+W0[1] => Mux6.IN7
+W0[2] => Mux5.IN7
+W0[3] => Mux4.IN7
+W0[4] => Mux3.IN7
+W0[5] => Mux2.IN7
+W0[6] => Mux1.IN7
+W0[7] => Mux0.IN7
+W1[0] => Mux7.IN8
+W1[1] => Mux6.IN8
+W1[2] => Mux5.IN8
+W1[3] => Mux4.IN8
+W1[4] => Mux3.IN8
+W1[5] => Mux2.IN8
+W1[6] => Mux1.IN8
+W1[7] => Mux0.IN8
+W2[0] => Mux7.IN9
+W2[1] => Mux6.IN9
+W2[2] => Mux5.IN9
+W2[3] => Mux4.IN9
+W2[4] => Mux3.IN9
+W2[5] => Mux2.IN9
+W2[6] => Mux1.IN9
+W2[7] => Mux0.IN9
+W3[0] => Mux7.IN10
+W3[1] => Mux6.IN10
+W3[2] => Mux5.IN10
+W3[3] => Mux4.IN10
+W3[4] => Mux3.IN10
+W3[5] => Mux2.IN10
+W3[6] => Mux1.IN10
+W3[7] => Mux0.IN10
+F[0] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+F[1] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+F[2] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+F[3] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+F[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+F[5] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+F[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+F[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|registerfile|8bitregister:inst
+OUT[0] <= register:inst6.Out
+OUT[1] <= register:inst7.Out
+OUT[2] <= register:inst5.Out
+OUT[3] <= register:inst4.Out
+OUT[4] <= register:inst3.Out
+OUT[5] <= register:inst2.Out
+OUT[6] <= register:inst1.Out
+OUT[7] <= register:inst.Out
+IN[0] => register:inst6.In
+IN[1] => register:inst7.In
+IN[2] => register:inst5.In
+IN[3] => register:inst4.In
+IN[4] => register:inst3.In
+IN[5] => register:inst2.In
+IN[6] => register:inst1.In
+IN[7] => register:inst.In
+Load => register:inst6.Load
+Load => register:inst7.Load
+Load => register:inst5.Load
+Load => register:inst4.Load
+Load => register:inst3.Load
+Load => register:inst2.Load
+Load => register:inst1.Load
+Load => register:inst.Load
+Clk => register:inst6.clock
+Clk => register:inst7.clock
+Clk => register:inst5.clock
+Clk => register:inst4.clock
+Clk => register:inst3.clock
+Clk => register:inst2.clock
+Clk => register:inst1.clock
+Clk => register:inst.clock
+CLRN => register:inst6.CLRN
+CLRN => register:inst7.CLRN
+CLRN => register:inst5.CLRN
+CLRN => register:inst4.CLRN
+CLRN => register:inst3.CLRN
+CLRN => register:inst2.CLRN
+CLRN => register:inst1.CLRN
+CLRN => register:inst.CLRN
+
+
+|registerfile|8bitregister:inst|register:inst6
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst|register:inst6|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst|register:inst7
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst|register:inst7|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst|register:inst5
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst|register:inst5|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst|register:inst4
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst|register:inst4|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst|register:inst3
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst|register:inst3|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst|register:inst2
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst|register:inst2|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst|register:inst1
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst|register:inst1|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst|register:inst
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst|register:inst|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst5
+OUT[0] <= register:inst6.Out
+OUT[1] <= register:inst7.Out
+OUT[2] <= register:inst5.Out
+OUT[3] <= register:inst4.Out
+OUT[4] <= register:inst3.Out
+OUT[5] <= register:inst2.Out
+OUT[6] <= register:inst1.Out
+OUT[7] <= register:inst.Out
+IN[0] => register:inst6.In
+IN[1] => register:inst7.In
+IN[2] => register:inst5.In
+IN[3] => register:inst4.In
+IN[4] => register:inst3.In
+IN[5] => register:inst2.In
+IN[6] => register:inst1.In
+IN[7] => register:inst.In
+Load => register:inst6.Load
+Load => register:inst7.Load
+Load => register:inst5.Load
+Load => register:inst4.Load
+Load => register:inst3.Load
+Load => register:inst2.Load
+Load => register:inst1.Load
+Load => register:inst.Load
+Clk => register:inst6.clock
+Clk => register:inst7.clock
+Clk => register:inst5.clock
+Clk => register:inst4.clock
+Clk => register:inst3.clock
+Clk => register:inst2.clock
+Clk => register:inst1.clock
+Clk => register:inst.clock
+CLRN => register:inst6.CLRN
+CLRN => register:inst7.CLRN
+CLRN => register:inst5.CLRN
+CLRN => register:inst4.CLRN
+CLRN => register:inst3.CLRN
+CLRN => register:inst2.CLRN
+CLRN => register:inst1.CLRN
+CLRN => register:inst.CLRN
+
+
+|registerfile|8bitregister:inst5|register:inst6
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst5|register:inst6|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst5|register:inst7
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst5|register:inst7|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst5|register:inst5
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst5|register:inst5|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst5|register:inst4
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst5|register:inst4|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst5|register:inst3
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst5|register:inst3|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst5|register:inst2
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst5|register:inst2|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst5|register:inst1
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst5|register:inst1|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst5|register:inst
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst5|register:inst|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst6
+OUT[0] <= register:inst6.Out
+OUT[1] <= register:inst7.Out
+OUT[2] <= register:inst5.Out
+OUT[3] <= register:inst4.Out
+OUT[4] <= register:inst3.Out
+OUT[5] <= register:inst2.Out
+OUT[6] <= register:inst1.Out
+OUT[7] <= register:inst.Out
+IN[0] => register:inst6.In
+IN[1] => register:inst7.In
+IN[2] => register:inst5.In
+IN[3] => register:inst4.In
+IN[4] => register:inst3.In
+IN[5] => register:inst2.In
+IN[6] => register:inst1.In
+IN[7] => register:inst.In
+Load => register:inst6.Load
+Load => register:inst7.Load
+Load => register:inst5.Load
+Load => register:inst4.Load
+Load => register:inst3.Load
+Load => register:inst2.Load
+Load => register:inst1.Load
+Load => register:inst.Load
+Clk => register:inst6.clock
+Clk => register:inst7.clock
+Clk => register:inst5.clock
+Clk => register:inst4.clock
+Clk => register:inst3.clock
+Clk => register:inst2.clock
+Clk => register:inst1.clock
+Clk => register:inst.clock
+CLRN => register:inst6.CLRN
+CLRN => register:inst7.CLRN
+CLRN => register:inst5.CLRN
+CLRN => register:inst4.CLRN
+CLRN => register:inst3.CLRN
+CLRN => register:inst2.CLRN
+CLRN => register:inst1.CLRN
+CLRN => register:inst.CLRN
+
+
+|registerfile|8bitregister:inst6|register:inst6
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst6|register:inst6|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst6|register:inst7
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst6|register:inst7|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst6|register:inst5
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst6|register:inst5|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst6|register:inst4
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst6|register:inst4|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst6|register:inst3
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst6|register:inst3|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst6|register:inst2
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst6|register:inst2|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst6|register:inst1
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst6|register:inst1|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|8bitregister:inst6|register:inst
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+clock => inst.CLK
+Load => 21mux:inst2.S
+In => 21mux:inst2.A
+
+
+|registerfile|8bitregister:inst6|register:inst|21mux:inst2
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|registerfile|mux4to1withEN:inst4
+S1 => Mux0.IN4
+S1 => Mux1.IN4
+S1 => Mux2.IN4
+S1 => Mux3.IN4
+S1 => Mux4.IN4
+S1 => Mux5.IN4
+S1 => Mux6.IN4
+S1 => Mux7.IN4
+S0 => Mux0.IN5
+S0 => Mux1.IN5
+S0 => Mux2.IN5
+S0 => Mux3.IN5
+S0 => Mux4.IN5
+S0 => Mux5.IN5
+S0 => Mux6.IN5
+S0 => Mux7.IN5
+En => Mux0.IN6
+En => Mux1.IN6
+En => Mux2.IN6
+En => Mux3.IN6
+En => Mux4.IN6
+En => Mux5.IN6
+En => Mux6.IN6
+En => Mux7.IN6
+W0[0] => Mux7.IN7
+W0[1] => Mux6.IN7
+W0[2] => Mux5.IN7
+W0[3] => Mux4.IN7
+W0[4] => Mux3.IN7
+W0[5] => Mux2.IN7
+W0[6] => Mux1.IN7
+W0[7] => Mux0.IN7
+W1[0] => Mux7.IN8
+W1[1] => Mux6.IN8
+W1[2] => Mux5.IN8
+W1[3] => Mux4.IN8
+W1[4] => Mux3.IN8
+W1[5] => Mux2.IN8
+W1[6] => Mux1.IN8
+W1[7] => Mux0.IN8
+W2[0] => Mux7.IN9
+W2[1] => Mux6.IN9
+W2[2] => Mux5.IN9
+W2[3] => Mux4.IN9
+W2[4] => Mux3.IN9
+W2[5] => Mux2.IN9
+W2[6] => Mux1.IN9
+W2[7] => Mux0.IN9
+W3[0] => Mux7.IN10
+W3[1] => Mux6.IN10
+W3[2] => Mux5.IN10
+W3[3] => Mux4.IN10
+W3[4] => Mux3.IN10
+W3[5] => Mux2.IN10
+W3[6] => Mux1.IN10
+W3[7] => Mux0.IN10
+F[0] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+F[1] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+F[2] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+F[3] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+F[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+F[5] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+F[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+F[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

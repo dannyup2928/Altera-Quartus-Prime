@@ -1,0 +1,43 @@
+|finitestatemachine
+y2 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Reset => inst1.ACLR
+Reset => inst2.ACLR
+Reset => inst3.ACLR
+clk => inst1.CLK
+clk => inst2.CLK
+clk => inst3.CLK
+p_1 => finitestatemachinealgorithm:inst.w0
+p0 => finitestatemachinealgorithm:inst.w1
+y1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+y0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finitestatemachine|finitestatemachinealgorithm:inst
+y2 => y_2.IN0
+y2 => y_2.IN0
+y2 => y_0.IN0
+y2 => y_2.IN1
+y2 => y_1.IN1
+y2 => y_1.IN0
+y2 => y_0.IN0
+y1 => y_2.IN0
+y1 => y_0.IN1
+y1 => y_0.IN1
+y1 => y_2.IN1
+y1 => y_1.IN1
+y1 => y_1.IN1
+y0 => y_2.IN1
+y0 => y_1.IN1
+y0 => y_0.IN1
+y0 => y_2.IN1
+y0 => y_0.IN1
+w0 => y_1.IN1
+w0 => y_1.IN0
+w1 => y_1.IN1
+w1 => y_1.IN1
+w1 => y_0.IN1
+y_2 <= y_2.DB_MAX_OUTPUT_PORT_TYPE
+y_1 <= y_1.DB_MAX_OUTPUT_PORT_TYPE
+y_0 <= y_0.DB_MAX_OUTPUT_PORT_TYPE
+
+

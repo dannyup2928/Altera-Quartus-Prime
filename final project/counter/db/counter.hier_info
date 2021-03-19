@@ -1,0 +1,19 @@
+|counter
+q4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst1.ACLR
+CLRN => inst4.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+EN => inst1.IN0
+EN => inst7.IN0
+Clk => 21mux:inst.B
+
+
+|counter|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+

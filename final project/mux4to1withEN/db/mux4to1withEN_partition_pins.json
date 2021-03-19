@@ -1,0 +1,181 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "F[0]",
+					"strict" : false
+				},
+				{
+					"name" : "F[1]",
+					"strict" : false
+				},
+				{
+					"name" : "F[2]",
+					"strict" : false
+				},
+				{
+					"name" : "F[3]",
+					"strict" : false
+				},
+				{
+					"name" : "F[4]",
+					"strict" : false
+				},
+				{
+					"name" : "F[5]",
+					"strict" : false
+				},
+				{
+					"name" : "F[6]",
+					"strict" : false
+				},
+				{
+					"name" : "F[7]",
+					"strict" : false
+				},
+				{
+					"name" : "En",
+					"strict" : false
+				},
+				{
+					"name" : "W2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S1",
+					"strict" : false
+				},
+				{
+					"name" : "W1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S0",
+					"strict" : false
+				},
+				{
+					"name" : "W0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "W3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "W1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "W2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "W0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "W3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "W2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "W1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "W0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "W3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "W1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "W2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "W0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "W3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "W2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "W1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "W0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "W3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "W1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "W2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "W0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "W3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "W2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "W1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "W0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "W3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "W1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "W2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "W0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "W3[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

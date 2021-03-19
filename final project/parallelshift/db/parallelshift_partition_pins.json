@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out[16]",
+					"strict" : false
+				},
+				{
+					"name" : "out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "In[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "In[14]",
+					"strict" : false
+				},
+				{
+					"name" : "In[13]",
+					"strict" : false
+				},
+				{
+					"name" : "In[12]",
+					"strict" : false
+				},
+				{
+					"name" : "In[11]",
+					"strict" : false
+				},
+				{
+					"name" : "In[10]",
+					"strict" : false
+				},
+				{
+					"name" : "In[9]",
+					"strict" : false
+				},
+				{
+					"name" : "In[8]",
+					"strict" : false
+				},
+				{
+					"name" : "In[7]",
+					"strict" : false
+				},
+				{
+					"name" : "In[6]",
+					"strict" : false
+				},
+				{
+					"name" : "In[5]",
+					"strict" : false
+				},
+				{
+					"name" : "In[4]",
+					"strict" : false
+				},
+				{
+					"name" : "In[3]",
+					"strict" : false
+				},
+				{
+					"name" : "In[2]",
+					"strict" : false
+				},
+				{
+					"name" : "In[1]",
+					"strict" : false
+				},
+				{
+					"name" : "In[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

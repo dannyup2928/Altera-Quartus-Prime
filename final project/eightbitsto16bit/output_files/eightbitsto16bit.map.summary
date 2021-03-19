@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 04 18:56:58 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Revision Name : eightbitsto16bit
+Top-level Entity Name : eightbitsto16bit
+Family : Cyclone IV E
+Total logic elements : 0
+    Total combinational functions : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
